@@ -160,7 +160,37 @@ hr{border-width: 1px 0px 0px 0px; border-style: dotted; border-color: gray; heig
 
 textarea{overflow:auto}
 
-h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
+
+
+
+  /* h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  } */
+
+  ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left:33px;
+  }
+  #grid #article{
+    padding-left:25px;
+  }
+
+
+h1{font-size:36px; border-bottom:2px solid gray; padding:20px;}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 h1 {font-weight: normal;
@@ -169,6 +199,12 @@ h2
 {
   padding-top:180px;
   margin-top:-180px;
+}
+
+.bg {
+  background-image: -webkit-linear-gradient(270deg, rgba(31,69,143,1), rgba(138,188,247,0.7));
+  padding: 10px 10px 10px 10px;
+  /* background-color: transparent; */
 }
 
 
